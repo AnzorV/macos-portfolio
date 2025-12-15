@@ -144,7 +144,7 @@ const socials = [
     {
         id: 3,
         text: "Youtube/YT",
-        icon: "/icons/twitter.svg",
+        icon: "/icons/youtube.svg",
         bg: "#ff866b",
         link: "https://youtube.com/@AmiringPRO",
     },
@@ -222,7 +222,7 @@ const WORK_LOCATION = {
     icon: "/icons/work.svg",
     kind: "folder",
     children: [
-        // ▶ Project 1
+        // ▶ Project 1 — Top Left
         {
             "id": 5,
             "name": "3-D Portfolio Website",
@@ -276,13 +276,13 @@ const WORK_LOCATION = {
         },
 
 
-        // ▶ Project 2
+        // ▶ Project 2 — Middle Left
         {
             "id": 6,
             "name": "HTML Portfolio Website - 2021",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-52 right-80",
+            "position": "top-52 left-5",
             "windowPosition": "top-[20vh] left-7",
             "children": [
                 {
@@ -330,13 +330,13 @@ const WORK_LOCATION = {
         },
 
 
-        // ▶ Project 3
+        // ▶ Project 3 — Top Middle
         {
             "id": 7,
             "name": "Apple Product App - iPhone 14/15",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-10 left-80",
+            "position": "top-10 left-64",
             "windowPosition": "top-[33vh] left-7",
             "children": [
                 {
@@ -383,13 +383,13 @@ const WORK_LOCATION = {
             ]
         },
 
-        // ▶ Project 4
+        // ▶ Project 4 — Top Right
         {
             "id": 8,
             "name": "Interstellar Visa Center Shop",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-10 left-80",
+            "position": "top-10 left-[40rem]",
             "windowPosition": "top-[33vh] left-7",
             "children": [
                 {
@@ -435,13 +435,14 @@ const WORK_LOCATION = {
                 }
             ]
         },
-        // ▶ Project 5
+
+        // ▶ Project 5 — Middle Middle
         {
             "id": 9,
             "name": "Ecommerce Sanity and Stripe App",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-10 left-80",
+            "position": "top-52 left-64",
             "windowPosition": "top-[33vh] left-7",
             "children": [
                 {
@@ -487,12 +488,14 @@ const WORK_LOCATION = {
                 }
             ]
         },
+
+        // ▶ Project 6 — Middle Right
         {
             "id": 10,
             "name": "Interstellar Visa Center Portfolio",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-10 left-80",
+            "position": "top-52 left-[40rem]",
             "windowPosition": "top-[33vh] left-7",
             "children": [
                 {
@@ -539,12 +542,13 @@ const WORK_LOCATION = {
             ]
         },
 
+        // ▶ Project 7 — Bottom Left
         {
             "id": 11,
             "name": "Iztmivekov Online Restaurant",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-10 left-80",
+            "position": "top-[50vh] left-5",
             "windowPosition": "top-[33vh] left-7",
             "children": [
                 {
@@ -590,12 +594,14 @@ const WORK_LOCATION = {
                 }
             ]
         },
+
+        // ▶ Project 8 — Bottom Middle
         {
             "id": 12,
             "name": "Zoom Clone App",
             "icon": "/images/folder.png",
             "kind": "folder",
-            "position": "top-10 left-80",
+            "position": "top-[50vh] left-64",
             "windowPosition": "top-[33vh] left-7",
             "children": [
                 {
@@ -641,9 +647,9 @@ const WORK_LOCATION = {
                 }
             ]
         }
-
     ],
 };
+
 
 const ABOUT_LOCATION = {
     id: 2,
